@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Credentials
+``EDITOR="editor_name" rails credentials:edit --environment=env_name``

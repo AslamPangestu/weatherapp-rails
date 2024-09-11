@@ -1,5 +1,8 @@
-<div class="container">
-<h1 class="text-muted">Home#index</h1>
-<p class="text-muted">Find me in app/views/home/index.html.erb</p>
-
+<div class="p-5 mb-4 <%= @background %> rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold"><%= @result %></h1>
+    <p class="col-md-8 fs-4">This is current pollution condition</p>
+    <hr class="my-4"/>
+    <p><%= @description %></p>
+  </div>
 </div>
